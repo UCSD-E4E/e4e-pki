@@ -19,7 +19,7 @@ def main():
     new_environ = os.environ.copy()
     new_environ['SAN'] = ','.join(f'DNS:{hostname}' for hostname in hostnames)
 
-    subprocess.check_call(['openssl', 'req', '-new', '-config', 'etc/server.conf',
+    subprocess.check_call(['openssl', 'req', '-new', '-config', 'etc/tls-server.conf',
                           '-out', f'certs/{hostnames[0]}.csr', '-keyout', f'certs/{hostnames[0]}.key'], env=new_environ)
 
     print(f'Certificate signing request at certs/{hostnames[0]}.csr')
