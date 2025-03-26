@@ -13,3 +13,4 @@ Follow https://pki-tutorial.readthedocs.io/en/latest/advanced/index.html#operate
 ```
 veracrypt -m ro -t -k "" --pim=20000 --protect-hidden=no secure.hc ./private
 ```
+Note that this process will take about a minute or so.
