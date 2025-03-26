@@ -1,0 +1,132 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            3c:f4:60:aa:8d:d3:6d:6e:22:b9:28:2a:38:ea:6f:01:10:b8:42:bd
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: DC=edu, DC=ucsd, DC=e4e, O=UC San Diego, OU=Engineers for Exploration, CN=UCSD Engineers for Exploration
+        Validity
+            Not Before: Mar 26 03:03:56 2025 GMT
+            Not After : Mar 26 03:03:56 2027 GMT
+        Subject: DC=edu, DC=ucsd, DC=kastner-ml, O=UC San Diego, OU=Engineers for Exploration, CN=kastner-ml.ucsd.edu
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:c1:7c:77:49:3d:93:e5:d9:21:d8:8e:47:fb:2e:
+                    60:69:3f:cd:b0:e3:42:da:68:75:a4:ee:08:24:62:
+                    0d:05:24:e0:d1:7f:13:61:9b:fa:94:7e:be:c3:7b:
+                    7a:e3:84:9a:fc:f7:62:4d:92:3d:6b:54:b8:31:83:
+                    7c:de:4c:e0:ba:31:dc:e4:62:66:40:6f:87:32:51:
+                    16:ef:94:ff:ad:d9:5e:2c:4a:e8:1d:6a:7f:e5:db:
+                    ba:4b:5e:3a:61:fa:54:f0:dd:99:a6:f5:f6:5a:f8:
+                    04:33:a0:7e:d3:c5:b2:66:2f:c4:6a:87:c3:0a:c9:
+                    1e:06:5b:a2:8c:14:c9:34:0a:b1:33:e0:bb:d0:ec:
+                    3f:35:df:3a:90:29:b8:94:12:b4:2f:d4:c1:1d:aa:
+                    f1:af:ca:1f:c1:b8:3a:db:0d:87:a4:7e:bd:eb:03:
+                    7d:27:8c:bb:14:b3:b0:d1:2f:63:03:0d:0e:93:d8:
+                    47:6e:72:39:fc:22:01:3a:06:e4:fc:cb:5e:89:b4:
+                    8f:18:5c:12:b2:fe:3e:71:07:49:1e:60:33:5e:d1:
+                    e4:75:82:f2:5c:d9:4a:5d:76:f9:5c:b8:e6:79:57:
+                    6d:60:a0:20:4c:74:90:5d:13:67:06:d6:62:ea:7a:
+                    a4:be:20:e5:db:52:06:55:9b:1f:8d:03:72:da:58:
+                    22:1a:b5:43:a9:b7:46:e3:93:88:6d:02:62:8a:f2:
+                    e1:d3:46:12:82:f5:f6:5f:14:a3:ad:19:28:d6:30:
+                    ba:7c:44:1a:3b:1a:c5:eb:74:b9:18:5c:d2:f5:9a:
+                    7f:0c:a6:55:5b:ec:73:37:5f:7b:93:92:c2:bc:bd:
+                    64:c9:f6:30:f6:8f:2a:87:ff:36:e6:b0:d1:36:11:
+                    24:72:a0:d4:06:c5:0e:f1:49:8f:25:50:12:99:e9:
+                    4d:23:a3:d4:38:60:ef:b3:3f:13:ad:a2:cf:25:82:
+                    1b:66:92:2e:b6:0b:7e:1f:0b:c3:f9:a8:5e:f0:be:
+                    ba:c2:4d:3c:5f:d9:57:aa:c9:80:25:ba:58:f2:96:
+                    fe:20:c6:2f:df:1f:49:da:31:13:f4:2a:aa:ba:95:
+                    c2:c7:b6:69:4d:64:6a:a9:d0:63:f2:54:08:ac:4e:
+                    52:36:79:25:b9:66:02:75:ae:dd:44:e1:30:cb:8b:
+                    c5:08:75:81:65:42:84:43:3d:f5:5e:e8:83:cc:8c:
+                    6b:6b:93:d0:98:35:bc:a5:8e:22:b4:aa:9e:d7:d0:
+                    f9:86:1b:d4:27:c7:1d:00:ae:a8:8f:b2:15:d2:10:
+                    ec:fa:f4:56:af:8c:ae:6b:6c:4d:d8:26:be:bf:0d:
+                    30:9f:ac:75:60:02:94:48:d0:ec:23:8e:74:d1:39:
+                    68:c7:c9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                23:7B:08:3A:7D:FB:5D:E1:66:CB:7A:89:C2:18:79:E9:0A:A5:31:38
+            X509v3 Authority Key Identifier: 
+                62:38:B1:82:A7:13:C1:4A:C2:71:9A:B6:03:C2:20:83:21:7F:26:81
+            X509v3 Subject Alternative Name: 
+                DNS:kastner-ml.ucsd.edu
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        9c:a8:ae:d2:2c:80:cd:53:1a:7a:82:d9:44:58:4d:b1:79:1f:
+        24:c5:a8:9e:e8:07:51:80:d2:14:76:71:1e:01:93:b2:2c:76:
+        99:56:d3:44:82:0a:eb:bb:ab:c9:e4:60:a4:55:8a:3c:c1:d2:
+        d1:7a:8a:d2:19:f0:b8:eb:89:4a:3e:c6:78:e8:62:81:9b:f9:
+        74:d3:82:1e:81:32:9a:ff:32:f9:db:08:96:aa:87:f7:e7:10:
+        ac:d1:4f:c6:56:cd:61:02:3a:19:5f:6d:56:f0:4f:81:f2:c2:
+        06:bb:eb:2b:ab:1e:83:6e:65:98:c1:0a:cb:1e:ba:46:87:20:
+        0b:d7:8f:fa:c1:27:f1:d2:f4:e8:33:9e:6d:7a:0f:76:16:7b:
+        dd:3b:c3:ed:22:ee:9d:14:f1:ad:f7:d1:39:7c:70:54:7c:f4:
+        1f:c9:91:85:47:7a:be:23:89:37:5f:0e:da:00:ba:5f:0e:c3:
+        9e:ce:ac:31:2a:e0:38:2a:2c:12:88:3c:64:c4:3e:75:c9:db:
+        c3:56:32:e6:09:fb:6c:e7:31:79:07:66:1f:57:02:41:ef:65:
+        10:2b:96:4d:d7:28:c2:0b:62:49:82:46:8a:03:91:e0:16:4d:
+        f5:4b:86:a2:a0:5c:bc:e0:89:9d:fb:79:62:37:6e:29:ed:9f:
+        3c:a9:c0:12:1c:8d:c0:45:32:01:28:fa:4f:a5:0a:a3:87:f9:
+        e0:f5:92:31:9b:67:f3:9f:41:ef:31:df:a6:b1:1c:0e:07:11:
+        0f:2c:18:27:d2:f5:21:c9:30:46:d2:dd:29:49:1a:76:59:13:
+        45:75:d0:1f:de:50:3b:4e:89:07:68:d6:41:46:08:6b:74:ba:
+        00:7e:2e:1e:17:79:64:d7:0b:15:14:2a:73:a2:1f:d2:66:b3:
+        a3:01:1d:9c:55:9b:9a:ee:0c:9e:f4:da:fc:4e:89:d0:28:1f:
+        41:c1:70:5f:2c:9a:60:c5:21:9f:e9:4e:c5:a1:d6:91:55:66:
+        a5:24:03:a7:84:70:91:4e:e2:02:b8:08:60:fc:36:c9:0a:4f:
+        39:c9:c3:c3:42:be:0c:8a:23:12:bc:65:cc:df:13:03:92:bb:
+        17:4f:ea:36:f8:4e:aa:64:da:c1:e4:49:c5:cd:82:c7:79:57:
+        9a:d5:4d:ea:0e:57:9a:a7:d6:ba:f3:98:76:27:07:fa:88:2d:
+        d9:97:b3:9d:f4:0d:36:59:50:4a:b7:c6:11:95:2e:3d:c7:4b:
+        5d:eb:07:b5:b5:dc:5d:c3:0b:9e:85:82:53:1c:be:b3:40:ca:
+        08:68:a8:d2:95:19:67:94:6f:c6:5e:98:39:28:ce:d0:20:2d:
+        fd:cd:50:06:35:db:97:52
+-----BEGIN CERTIFICATE-----
+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
+lRlnlG/GXpg5KM7QIC39zVAGNduXUg==
+-----END CERTIFICATE-----
