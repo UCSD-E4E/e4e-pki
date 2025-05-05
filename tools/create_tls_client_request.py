@@ -14,10 +14,10 @@ def main():
             continue
 
     subprocess.check_call(['openssl', 'req', '-new', '-config', 'etc/tls-client.conf',
-                          '-out', f'certs/{cert_name[0]}.csr', '-keyout', f'certs/{cert_name[0]}.key'])
+                          '-out', f'certs/{cert_name}.csr', '-keyout', f'certs/{cert_name}.key'])
 
-    print(f'Certificate signing request at certs/{cert_name[0]}.csr')
-    print(f'New private key at certs/{cert_name[0]}.key')
+    print(f'Certificate signing request at certs/{cert_name}.csr')
+    print(f'New private key at certs/{cert_name}.key')
 
 
 if __name__ == '__main__':
