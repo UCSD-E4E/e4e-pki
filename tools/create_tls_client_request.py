@@ -6,24 +6,18 @@ import os
 
 
 def main():
-    hostnames = []
-    while True:
-        hostname = input('Hostname (press Enter to continue): ')
-        if hostname == '':
-            if len(hostnames) == 0:
-                print('At least one hostname is required!')
-                continue
-            break
-        hostnames.append(hostname)
-
-    new_environ = os.environ.copy()
-    new_environ['SAN'] = ','.join(f'DNS:{hostname}' for hostname in hostnames)
+    cert_name = None
+    while cert_name is None or cert_name == '':
+        cert_name = input('Cert file name: ')
+        if cert_name == '':
+            print('Cert file name is required!')
+            continue
 
     subprocess.check_call(['openssl', 'req', '-new', '-config', 'etc/tls-client.conf',
-                          '-out', f'certs/{hostnames[0]}.csr', '-keyout', f'certs/{hostnames[0]}.key'], env=new_environ)
+                          '-out', f'certs/{cert_name}.csr', '-keyout', f'certs/{cert_name}.key'])
 
-    print(f'Certificate signing request at certs/{hostnames[0]}.csr')
-    print(f'New private key at certs/{hostnames[0]}.key')
+    print(f'Certificate signing request at certs/{cert_name}.csr')
+    print(f'New private key at certs/{cert_name}.key')
 
 
 if __name__ == '__main__':
