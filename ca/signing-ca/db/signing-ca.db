@@ -1,2 +1,4 @@
 R	270326030356Z	250326173045Z,cessationOfOperation	3CF460AA8DD36D6E22B9282A38EA6F0110B842BD	unknown	/DC=edu/DC=ucsd/DC=kastner-ml/O=UC San Diego/OU=Engineers for Exploration/CN=kastner-ml.ucsd.edu
 V	270505162625Z		5A2814B99CC1DA1BF665C488F658DBF9C039D3E0	unknown	/DC=edu/DC=ucsd/DC=kastner-ml/O=UCSD E4E/OU=E4E/CN=kastner-ml.ucsd.edu
+V	270904190755Z		7CC878424623CF7682701B88743C535E8844C49A	unknown	/DC=edu/DC=ucsd/DC=workflows.fishsense.e4e/O=UC San Diego/OU=Engineers for Exploration/CN=workflows.fishsense.e4e.ucsd.edu
+V	270904193315Z		34A6E472C81B15745861AA6507827138057BA3C7	unknown	/C=US/ST=California/L=La Jolla/O=UC San Diego/OU=Engineers for Exploration/CN=fishsense-api-workflow-worker/emailAddress=e4e@ucsd.edu
